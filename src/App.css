@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+:root {
+  --header-height: 3rem;
+  /*-------------Color------------------------------------------*/
+  --hua: 0;
+  --sat: 0%;
+  --title-color: hsl(var(--hua), var(--sat), 80%);
+  --title-color-dark: hsl(var(--hua), var(--sat), 100%);
+  --text-color: hsl(var(--hua), var(--sat), 100%);
+  --body-color: rgb(2, 2, 34);
+  --container-color: rgb(4, 0, 51);
+  /*-------------------Font Type-----------hsl(var(--hua), var(--sat), 98%)---------------------------*/
+
+  font-family: "Poppins", sans-serif;
+
+  /*---------------Font Family-------------------------------------------*/
+
+  --big-font-size: 3.5rem;
+  --h1-font-size: 2.25rem;
+  --h2-font-size: 1.5rem;
+  --h3-font-size: 1.25rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.875rem;
+  --smaller-font-size: 0.813rem;
+  --tiny-font-size: 0.625rem;
+
+  /*-----------------------------------Font Weight-------------------------------*/
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /*--------------------------------Margine Bottom--------------------------------*/
+  --mb-0-25: 0.25rem;
+  --mb-0-5: 0.5rem;
+  --mb-0-75: 0.75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+  --mb-3: 3rem;
+
+  /*---------------------------------------z index-------------------------------*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  --z-modal: 1000;
+}
+
+/*----------------------------------- Responsive Design--------------------------------*/
+@media screen and (max-width: 992px) {
+  :root {
+    --big-font-size: 2.75rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
+  }
+}
+/*---------------------------Base----------------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body,
+button,
+textarea,
+input {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+}
+
+body{
+    background-color: var(--body-color);
+    color: var(--text-color);
+}
+h1,h2,h3{
+    color: var(--title-color);
+    font-weight: var(--font-semi-bold);
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/*---------------------------    case----------------------------------------------------*/
+.section{
+  padding: 6rem 0 2rem;
+}
+.section_title{
+  font-size: var(--h1-font-size);
+  color: var(--title-color-dark);
+}
+.section_subtitle{
+  display: block;
+  font-size: var(--small-font-size);
+  color: var(--title-color);
+  margin-bottom: 4rem;
+}
+.section_title,
+.section_subtitle{
+  text-align: center;
+}
+
+/*-------------------------------------Layout----------------------------------------------------*/
+
+.container{
+  max-width: 968px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.grid{
+  display: grid;
+  gap: 1.5rem;
+}
+
+/*---------------------------Button----------------------------------------------------*/
+.button{
+  display: inline-block;
+  color: var(--container-color);
+  background-color: var(--title-color-dark);
+  border-radius: 1rem;
+  padding: 1.25rem 2rem;
+  font-weight: var(--font-semi-bold);
+  transition: 0.3s;
+}
+
+.button:hover{
+  background-color: var(--title-color-dark);
+  transform: scale(1.1);
+}
+.button_icon{
+  margin-left: var(--mb-0-5);
+}
+.button--flex{
+  /*display:inline-block;*/
+  display: inline-flex;
+  align-items: center;
+}
+
+/*-------------------------------Break Point-------------------------*/
+@media screen and (max-width: 992px) {
+  .container {
+    margin-right: var(--mb-1-5);
+    margin-left: var(--mb-1-5);
+  }
+  .button {
+    padding: 1rem 1.75rem;
+  }
+  .button_icon {
+    width: 22px;
+    height: 22px;
+  }
+
+}
+
+/* for laptop device*/
+@media screen and (max-width: 768px) {
+  body {
+    margin: 0 0 var(--header-height) 0;
+  }
+  .section {
+    padding: 2rem 0 4rem;
+  }
+  .section_subtitle {
+    margin-bottom: var(--mb-3);
+  }
+  
+}
+
+/* for small device*/
+@media screen and (max-width: 576px) {
+  
+}
+
+/* for small device*/
+@media screen and (max-width: 350px) {
+  :root{
+    --big-font-size:2.25rem;
+  }
+  .container{
+    margin-right: var(--mb-1);
+    margin-left: var(--mb-1);
+  }
+}
