@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.eed96a7d.css",
+    "main.js": "/Portfolio/static/js/main.4f3d19ea.js",
+    "static/media/gangster.jpg": "/Portfolio/static/media/gangster.e43ae67f7e45ad757125.jpg",
+    "static/media/ChatApp3.png": "/Portfolio/static/media/ChatApp3.5758764a66d11d5ea75a.png",
+    "static/media/E-commerce.png": "/Portfolio/static/media/E-commerce.1ef40429af902c6adab3.png",
+    "static/media/resturent.png": "/Portfolio/static/media/resturent.170221e062efc2314006.png",
+    "static/media/Sumit.png": "/Portfolio/static/media/Sumit.c92f5d90594f6d0badfb.png",
+    "static/media/groot.png": "/Portfolio/static/media/groot.270d73624629f283b1e9.png",
+    "static/media/IMG_20231116_001522.jpg": "/Portfolio/static/media/IMG_20231116_001522.b74fbaccc3d56632b205.jpg",
+    "static/media/Fitness.png": "/Portfolio/static/media/Fitness.51ce550e69b22bbc9192.png",
+    "static/media/pic.jpg": "/Portfolio/static/media/pic.06f25dbf8edd750948aa.jpg",
+    "static/media/Spotify2.png": "/Portfolio/static/media/Spotify2.94e068507db79ca68d61.png",
+    "static/media/20231115_235259.png": "/Portfolio/static/media/20231115_235259.97cbb3913fb39b6200f2.png",
+    "static/media/react.png": "/Portfolio/static/media/react.dbe560099784932a1b3f.png",
+    "static/media/mongo-db.png": "/Portfolio/static/media/mongo-db.1903303ace5c1f0cd951.png",
+    "static/media/nodejs.png": "/Portfolio/static/media/nodejs.1be41223ce1924197aa2.png",
+    "static/media/dashboard.jpg": "/Portfolio/static/media/dashboard.2ef19c736e8860a9f167.jpg",
+    "static/media/css.png": "/Portfolio/static/media/css.0c375b2751cf0e37a591.png",
+    "static/media/html.png": "/Portfolio/static/media/html.539b77bfbf547e241c83.png",
+    "static/media/javascript.png": "/Portfolio/static/media/javascript.704d7658c99ce8a8ca63.png",
+    "static/media/figma.png": "/Portfolio/static/media/figma.ae50c547b90fac264a08.png",
+    "static/media/tailwind.png": "/Portfolio/static/media/tailwind.d02168423940e016e9f9.png",
+    "static/media/bootstrap.png": "/Portfolio/static/media/bootstrap.6c7143b2f324fa4d0997.png",
+    "static/media/Sumit_gupta.pdf": "/Portfolio/static/media/Sumit_gupta.8d12b2169dffcd20ec78.pdf",
+    "index.html": "/Portfolio/index.html",
+    "main.eed96a7d.css.map": "/Portfolio/static/css/main.eed96a7d.css.map",
+    "main.4f3d19ea.js.map": "/Portfolio/static/js/main.4f3d19ea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eed96a7d.css",
+    "static/js/main.4f3d19ea.js"
+  ]
+}
