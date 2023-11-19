@@ -3,14 +3,27 @@
     align-items: center;
     column-gap: 4rem;
 }
-
 .about_img{
-    width: 350px;
+    position: relative;
+    width: 370px;
     border-radius: 1.5rem;
+    filter: brightness(150%);
     justify-self: center;
-    box-shadow: 2px 4px 8px  rgb(96, 96, 96);
+    box-shadow:  0 0 0 5px rgb(2, 2, 34);  
+    animation: animate 2s ease-in-out infinite 1s; 
 }
 
+@keyframes animate {
+    0%{
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+    50%{
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60% ;
+    }
+    100%{
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+}
 
 .about_info{
     grid-template-columns: repeat(2,1fr);
@@ -76,7 +89,7 @@
         row-gap: 2.5rem;
        }
        .about_img{
-        width: 200px;
+        width: 250px;
        }
        .about_box{
         padding: 0 auto;

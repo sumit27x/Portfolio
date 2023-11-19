@@ -43,10 +43,10 @@ const Project = () => {
             slidesPerView: 1.4,
           },
           576: {
-            slidesPerView: 1.5,
+            slidesPerView: 3,
           },
           768: {
-            slidesPerView: 3,
+            slidesPerView: 3.2,
           }
         }} 
         modules={[EffectCoverflow,Pagination]}

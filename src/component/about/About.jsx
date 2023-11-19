@@ -1,8 +1,6 @@
 import React from "react";
 import './About.css';
-import Sumit2 from  '../../assets/Profile/IMG_20231116_001522.jpg'
-import Sumit from '../../assets/Profile/pic.jpg'
-import Gangster from '../../assets/Profile/gangster.jpg'
+import Pic2 from '../../assets/Profile/sumit.jpg';
 import CV from '../../assets/Sumit_gupta.pdf';
 import Info from './Info';
 
@@ -12,27 +10,15 @@ const About = () =>{
             <h2 className="section_title">About Me</h2>
             <span className="section_subtitle">My Introduction</span>
 
-            <div className="about_container container grid">
-                <img src={Gangster} alt="About Image" className="about_img"/> 
-              {/* <div className="about_img">
-               <img src={Gangster} alt="" className="back_img" />
-                <img src={Sumit} alt="" className="front_img"/>
-               
-               </div>  */}
+            <div className="about_container container grid">        
+          <img src={Pic2} alt="About Image" className="about_img"/>
                 <div className="About_data">
                     <Info/>
                     <p className="about_description">
-                     I'm Sumit I recently graduated with a Bachelor of Science 
-                     in Computer Science with a focus on web development from Mumbai University 
-                      in 2023. Proficient in front-end technologies, including HTML5, CSS3, JavaScript, 
+                     Hello I'm Sumit, Proficient in front-end technologies, including HTML5, CSS3, JavaScript, 
                      and popular library React Js. I've developed a responsive website using React JS that 
                      showcases my ability to create user-friendly interfaces.I'm passionate about creating 
-                     visually appealing and user-friendly websites. 
-                  {/*Front-end developers are the coders of all the user-facing 
-                    elements of websites, web applications, and mobile applications.
-                     They interpret the needs of the company and its customers and 
-                     create easy-to-use, interactive web apps. Front-end developers 
-                     must be adept at both programming languages and design techniques. */}  
+                     visually appealing and user-friendly websites.  
                     </p>
                     <a href={CV} download="" className="button button--flex">
                     Download CV 

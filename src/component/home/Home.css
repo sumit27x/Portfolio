@@ -59,8 +59,8 @@
     width: 300px;
     height: 300px;
     order: 1;
-    box-shadow:  0 0 0 5px rgb(255 255 255 / 30%);
     justify-self: center;
+    box-shadow:  0 0 0 5px rgb(255 255 255 / 30%);  
     animation: profile_animate 8s ease-in-out infinite 1s;
 }
 @keyframes profile_animate {

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import './Header.css';
-import Sumit from '../../assets/Profile/20231115_235259.png'
+import Logo from '../../assets/Profile/logo.png';
 
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
@@ -20,7 +20,7 @@ const Header =()=>{
       <header className="header">
         <nav className="nav container">
           <a href="index.html" className="nav_logo">
-            <img src={Sumit} alt="" className="logo" width="200px"/>
+            <img src={Logo} alt="" className="logo" width="180px"/>
           </a>
           <div className={Toggle ? "nav_menu show-menu" : "nav_menu"}>
             <ul className="nav_list grid">
