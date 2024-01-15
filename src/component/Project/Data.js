@@ -20,7 +20,7 @@ const Data = [
     {
         id:2,
         image:Fitnes,
-        title:'Fitnes Application',
+        title:'Fitness Application',
         description:`A Fitnes Application we can using React hooks, modern CSS, 
         framer motion, and many more. `
     },
@@ -37,15 +37,15 @@ const Data = [
     {
         id:4,
         image:ChatApp,
-        title:'Chat App',
+        title:'Chat Application',
         description:`Chating App with a Routing, Firebase Social Login, Firebase Google Login, 
         Firebase Facebook Login, React Context API, Chat Engine, REST API's, 
-        environment variables, and more!`
+        environment variables, and more!`,
     },
     {
         id:5,
         image: Resturant,
-        title:'Resturent',
+        title:'Resturant',
         description:`Bulid a React Resturant Application , this resturant includes search,Login page,
         Order section , Menu and many more.`
     },
