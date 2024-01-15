@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.674aa5a9.css",
-    "main.js": "/Portfolio/static/js/main.4338b31f.js",
+    "main.js": "/Portfolio/static/js/main.df07c07c.js",
     "static/media/ChatApp3.png": "/Portfolio/static/media/ChatApp3.5758764a66d11d5ea75a.png",
     "static/media/sumit.jpg": "/Portfolio/static/media/sumit.7bc8bdc18495c128905b.jpg",
     "static/media/E-commerce.png": "/Portfolio/static/media/E-commerce.1ef40429af902c6adab3.png",
@@ -21,13 +21,13 @@
     "static/media/figma.png": "/Portfolio/static/media/figma.ae50c547b90fac264a08.png",
     "static/media/tailwind.png": "/Portfolio/static/media/tailwind.d02168423940e016e9f9.png",
     "static/media/bootstrap.png": "/Portfolio/static/media/bootstrap.6c7143b2f324fa4d0997.png",
-    "static/media/Sumit_gupta.pdf": "/Portfolio/static/media/Sumit_gupta.8d12b2169dffcd20ec78.pdf",
+    "static/media/Sumit-Gupta.pdf": "/Portfolio/static/media/Sumit-Gupta.165397b57662aba9bd71.pdf",
     "index.html": "/Portfolio/index.html",
     "main.674aa5a9.css.map": "/Portfolio/static/css/main.674aa5a9.css.map",
-    "main.4338b31f.js.map": "/Portfolio/static/js/main.4338b31f.js.map"
+    "main.df07c07c.js.map": "/Portfolio/static/js/main.df07c07c.js.map"
   },
   "entrypoints": [
     "static/css/main.674aa5a9.css",
-    "static/js/main.4338b31f.js"
+    "static/js/main.df07c07c.js"
   ]
 }
